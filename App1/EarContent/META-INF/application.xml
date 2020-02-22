@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd" id="Application_ID" version="8">
+  <display-name>App1</display-name>
+  <module>
+    <ejb>Model.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>TestViewController.war</web-uri>
+      <context-root>TestViewController</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>RestService.war</web-uri>
+      <context-root>RestService</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>Phones.jar</ejb>
+  </module>
+  <module>
+    <ejb>DeptEmps.jar</ejb>
+  </module>
+</application>
